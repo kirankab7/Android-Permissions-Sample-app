@@ -30,6 +30,9 @@ class MainActivity : AppCompatActivity() {
         binding.button2.setOnClickListener {
             print("New Version")
         }
+        binding.button3.setOnClickListener {
+            print("New Version v1.1")
+        }
 
     }
     private fun requestPermissions(){
