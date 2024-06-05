@@ -27,6 +27,9 @@ class MainActivity : AppCompatActivity() {
         binding.button.setOnClickListener {
             requestPermissions()
         }
+        binding.button2.setOnClickListener {
+            print("New Version")
+        }
 
     }
     private fun requestPermissions(){
